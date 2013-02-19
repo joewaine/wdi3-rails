@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,900);
+
+body
+{
+  font-family: 'Lato', sans-serif;
+  background-color: #f9ff94;
+  padding: 25px;
+  color: #00003d;
+}
+
+section
+{
+  float: left;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 16px;
+  width: 180px;
+  text-align: center;
+padding-bottom: 5px;
+padding-left: 0px;
+background: #ff3333;
+color: #333;
+margin: 5px;
+text-decoration: none;
+border: 0px solid black;
+font-weight: 400;
+}
+
+.artist
+{
+  float: left;
+  margin-right: 20px;
+  font-size: 12px;
+  line-height: 16px;
+  width: 300px;
+padding-bottom: 0px;
+padding-left: 0px;
+background: #a4f687;
+margin: 5px;
+margin-bottom: 10px;
+}
+
+.ingredient
+{
+  float: left;
+  margin-right: 20px;
+  font-size: 12px;
+  line-height: 16px;
+  width: 100%;
+
+margin-top: 5px;
+padding-bottom: 0px;
+padding-left: 0px;
+background: #f9a494;
+
+margin: 0;
+margin-bottom: 0;
+}
+
+.ingredient img
+{
+  width: 100%;
+margin-top: 0px;
+}
+
+.individual_ing
+{
+  width: 100px;
+margin: 0px;
+}
+
+nav
+{
+  font-weight: 400;
+  margin: 5px;
+  color: #ff3333;
+}
+
+img
+{
+  border: 0px solid #261F1D;
+  width: 600px;
+}
+
+header
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+a
+{
+  color: #261F1D;
+  text-decoration: none;
+}
+
+input
+{
+  width: 250px;
+}
+
+form
+{
+  margin-bottom: 15px;
+}
+
+.left
+{float: left;
+width: 150px;}
+
+.right
+{float: left;}
+
+.3col
+{float: left;
+width: 800px;}
+
+
+

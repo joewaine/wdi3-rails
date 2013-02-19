@@ -1,0 +1,24 @@
+<section>
+<div class= 'info'>
+  <%= image_tag(@author.image) %>
+  <br>
+<%= @author.name %>
+<br>
+<%= @author.dob %>
+<br>
+<%= @author.bio %>
+<br>
+<%= link_to 'edit', edit_author_path(@author) %>
+<%= link_to 'delete', @author, :method => :delete, :confirm => 'do you really want to delete this?' %>
+</div>
+</section>
+<section>
+<% @author.books.each do |book| %>
+  <ul>
+    <li><%= image_tag(book.image) %></li>
+    <li><%= book.title %></li>
+    <li><%= book.genre %></li>
+    <li><%= book.plot %></li>
+  </ul>
+<% end %>
+</section>

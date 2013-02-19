@@ -1,0 +1,14 @@
+<% @samplers.each do |sampler| %>
+<div id="cat">
+<div id="cattitle">
+  <%= image_tag(sampler.pic) %>
+</div>
+<div id="title">
+<%= link_to(sampler.name, sampler) %>
+</div>
+<div id="deledit">
+<%= link_to 'D', sampler, :method => :delete, :confirm => 'Okay to delete?' %>
+<%= link_to 'E', edit_sampler_path(sampler) %>
+</div>
+</div>
+<% end %>

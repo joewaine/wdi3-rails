@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>R20130211StockMovie</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <a href="/home">home</a>
+  <a href="/about">about</a>
+  <a href="/faq">faq</a>
+  <a href="/stock">stock</a>
+  <a href="/movie">movie</a>
+
+
+<%= yield %>
+
+</body>
+</html>

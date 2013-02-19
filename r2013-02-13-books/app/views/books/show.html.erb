@@ -1,0 +1,11 @@
+<div class= 'info'>
+  <%= image_tag(@book.image) %>
+  <br>
+<%= @book.title %>
+<br>
+<%= @book.genre %>
+<br>
+<%= @book.plot %><br>
+<%= link_to 'edit', edit_book_path(@book) %>
+<%= link_to 'delete', @book, :method => :delete, :confirm => 'do you really want to delete this?' %>
+</div>

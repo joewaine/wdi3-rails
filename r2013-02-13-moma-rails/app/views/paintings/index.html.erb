@@ -1,0 +1,9 @@
+<% @paintings.each do |painting| %>
+<section>
+<ul>
+<li><img src="<%= painting.image %>"></li>
+<li><%= link_to painting.title, painting %>, <%= painting.style %>, <%= painting.year %></li>
+<li><%= painting.period %></li>
+</ul>
+</section>
+<% end %>

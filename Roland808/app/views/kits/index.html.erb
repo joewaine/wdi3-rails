@@ -1,0 +1,8 @@
+<% @kits.each do |kit| %>
+      <%= link_to(kit.name, kit) %>
+      <br>
+      <%= image_tag(kit.pic) %><br>
+<%= link_to 'Delete', kit, :method => :delete, :confirm => 'Okay to delete?' %>
+<%= link_to 'Edit', edit_kit_path(kit) %>
+<br>
+<% end %>

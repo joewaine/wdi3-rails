@@ -1,0 +1,11 @@
+<%= form_for @kit do |f| %>
+  <%= f.label :name, "Kit Name" %>
+  <%= f.text_field :name %><br>
+    <%= f.label :pic, "Image" %>
+  <%= f.text_field :pic %>
+  <br>
+  <%= f.label :sampler_id %>
+<%= f.select :sampler_id, Sampler.all.map{|sampler| [sampler.name, sampler.id]} %>
+  <br>
+  <%= f.submit %>
+<% end %>

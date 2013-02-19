@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,400,900);
+
+body
+{
+  font-family: 'Lato', sans-serif;
+  background-color: #FFF;
+  padding: 25px;
+  color: #00003d;
+}
+
+section
+{
+  float: left;
+
+  font-size: 10px;
+  font-weight: 100;
+  line-height: 16px;
+  width: 200px;
+  text-align: center;
+padding-bottom: 5px;
+background: #000;
+color: #FFF;
+margin: 10px;
+}
+
+.artist
+{
+  float: left;
+  margin-right: 20px;
+  font-size: 10px;
+  line-height: 16px;
+  width: 200px;
+  text-align: center;
+padding-bottom: 5px;
+background: #000;
+color: #FFF;
+margin: 10px;
+}
+
+nav
+{
+  font-weight: 700
+}
+
+img
+{
+  border: 0px solid #261F1D;
+  width: 600px;
+}
+
+header
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+a
+{
+  color: #261F1D;
+  text-decoration: none;
+}
+
+input
+{
+  width: 250px;
+}
+
+form
+{
+  margin-bottom: 15px;
+}
+
+.left
+{float: left;
+width: 200px;}
+
+.right
+{float: left;
+width: 800px;}
+
+
+

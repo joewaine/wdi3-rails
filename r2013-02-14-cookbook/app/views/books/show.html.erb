@@ -1,0 +1,35 @@
+<div class="right">
+<section>
+<%= image_tag(@book.image) %>
+<b><%= link_to(@book.title, @book) %></b><br>
+<%= @book.cuisine %><br>
+<%= @book.chef %>
+<br>
+<%= link_to '(edit)', edit_book_path(@book) %>
+<%= link_to '(delete)', @book, :method => :delete, :confirm => 'do you really want to delete this nice book?' %>
+</section>
+</div>
+
+<div class="3col">
+<% @book.recipes.each do |recipe| %>
+<section class="artist">
+  <%= image_tag(recipe.image) %>
+  <%= link_to(recipe.name, recipe) %>
+<br>
+
+<section class="ingredient">
+  <% recipe.ingredients.each do |ingredient| %>
+<section class="individual_ing">
+    <%= image_tag(ingredient.image) %>
+    <br>
+    <%= ingredient.name %>
+</section>
+  <% end %>
+
+</section>
+</section>
+   <% end %>
+</div>
+
+
+

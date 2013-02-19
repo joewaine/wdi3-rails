@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roland808</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+<body>
+  <nav>
+<ul>
+<%= link_to('samplers', samplers_path) %>
+<%= link_to('kits', kits_path) %>
+<%= link_to('instruments', instruments_path) %>
+<%= link_to('new sampler', new_sampler_path) %>
+<%= link_to('new kit', new_kit_path) %>
+<%= link_to('new instrument', new_instrument_path) %>
+</ul>
+</nav>
+
+<%= yield %>
+
+</body>
+</html>

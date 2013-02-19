@@ -1,0 +1,15 @@
+painting
+<div class= 'info'>
+  <%= image_tag(@painting.image) %>
+  <br>
+<%= @painting.title %>
+<br>
+<%= @painting.period %>
+<br>
+<%= @painting.year %>
+<br>
+<%= @painting.style %>
+
+</div>
+
+<%= link_to 'Delete', @painting, :method => :delete %>

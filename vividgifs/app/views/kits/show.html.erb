@@ -1,0 +1,10 @@
+<div id="show">
+<%= image_tag(@kit.pic) %>
+<%= @kit.name %>
+<%= link_to 'Delete', @kit, :method => :delete, :confirm => 'Okay to delete?' %>
+<%= link_to 'Edit', edit_kit_path(@kit) %>
+<br>
+</div>
+
+
+

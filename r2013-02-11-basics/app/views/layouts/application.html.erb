@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>R20130211Basics</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+
+<a href="/home">home</a>
+<a href="/about">about</a>
+<a href="/faq">faq</a><br>
+<a href="/dogs">dogs</a>
+<a href="/dogs/new">new dogs</a>
+<a href="/dogs/faq">dogs faq</a><br>
+<a href="/auto/color">auto colors</a>
+<a href="/auto/engine">auto engine</a>
+<a href="/funny">funny</a><br>
+
+
+
+
+<%= yield %>
+
+</body>
+</html>

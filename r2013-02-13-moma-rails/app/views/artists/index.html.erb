@@ -1,0 +1,14 @@
+<% @artists.each do |artist| %>
+<section class="artist">
+<ul>
+<li><img src="<%= artist.image %>"></li>
+<li><%= link_to artist.name, artist %>, <%= artist.nationality %>, <%= artist.dob %></li>
+<li><%= artist.period %></li>
+</ul>
+</section>
+
+<% end %>
+
+
+
+

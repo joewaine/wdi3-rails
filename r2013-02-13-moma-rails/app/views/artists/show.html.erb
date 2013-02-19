@@ -1,0 +1,31 @@
+<div class= 'info'>
+  <%= image_tag(@artist.image) %>
+  <br>
+<%= @artist.name %>
+<br>
+<%= @artist.period %>
+<br>
+<%= @artist.nationality %>
+<br>
+<%= @artist.dob %>
+</div>
+
+<% @artist.paintings.each do |painting| %>
+
+  <%= image_tag(@painting.image) %>
+  <br>
+<%= @painting.title %>
+<br>
+<%= @painting.period %>
+<br>
+<%= @painting.year %>
+<br>
+<%= @painting.style %>
+
+
+
+<% end %>
+
+
+<%= link_to 'Delete', @artist, :method => :delete %>
+<%= link_to 'Edit', edit_artist_path(@artist) %>

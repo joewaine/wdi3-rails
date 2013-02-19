@@ -1,0 +1,8 @@
+<% @samplers.each do |sampler| %>
+  <%= link_to(sampler.name, sampler) %><br>
+  <%= image_tag(sampler.pic) %>
+<br>
+<%= link_to 'Delete', sampler, :method => :delete, :confirm => 'Okay to delete?' %>
+<%= link_to 'Edit', edit_sampler_path(sampler) %>
+<br>
+<% end %>

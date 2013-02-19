@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
+
+body
+{
+  font-family: 'Lato', sans-serif;
+  background: url('http://i.imgur.com/80B18rx.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+}
+
+section
+{
+  color: #555;
+  background: #d4d4d4;
+  padding: 0px;
+  margin: 5px;
+  float: left;
+  width: 200px;
+  border: 0px solid #52E7FF;
+  border-radius: 15px;
+}
+
+
+img
+{
+  width: 200px;
+  height: 200px;
+  border: 0px solid #52E7FF;
+  border-radius: 15px 15px 0px 0px;
+  z-index: 1;
+}
+
+button
+{
+  background: #555;
+  color: #d4d4d4;
+  border: 0px;
+  border-radius: 0px 0px 0px 10px;
+  padding: 0px;
+  margin-left: 0px;
+  z-index: 9999;
+
+}
+
+
+
+
+#addedit
+{
+  background: #4EFFCB;
+  color: #FF744E;
+  border: 0px;
+  border-radius: 0px 10px 0px 10px;
+  padding: 0px;
+  margin-left: 0px;
+  z-index: 9999;
+  width: 100px;
+}
+
+#full{size: 100%}
+
+#name{
+font-size: 22px;
+  font-weight: bold;
+padding: 6px 0px 3px 6px;}
+
+#breed{
+padding: 0px 0px 10px 6px;}
+
+#delete{
+  background: #555;
+  width: 20px;
+height: 20px;
+text-indent: .2em;
+line-height: .1em;
+float: right;
+padding: 0px;
+margin: 0px;
+z-index: 9999;
+}
+
+form
+{width: 100%;}
+
+.instate
+{
+  color: #555;
+  background: #d4d4d4;
+  padding: 0px;
+  margin: 5px;
+  width: 500px;
+  float: left;
+  border: 0px solid #52E7FF;
+  border-radius: 15px;
+}
+
+#form-mat
+{
+padding: 10px;
+margin: 20px;
+background: #;
+}

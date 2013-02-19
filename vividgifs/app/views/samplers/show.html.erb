@@ -1,0 +1,13 @@
+<div id="cat">
+<%= image_tag(@sampler.pic) %>
+<%= @sampler.name %>
+</div>
+
+<% @sampler.kits.each do |kit| %>
+<div id="gif">
+<%= image_tag(kit.pic) %>
+<%= link_to(kit.name, kit) %>
+<%= link_to 'delete', @sample, :method => :delete, :confirm => 'Okay to delete?' %>
+<%= link_to 'Edit', edit_sampler_path(@sampler) %>
+</div>
+<% end %>

@@ -1,0 +1,12 @@
+<%= @kit.name %>
+<br>
+<%= image_tag(@kit.pic) %>
+<br>
+<% @kit.instruments.each do |instrument| %>
+<br>
+  <%= link_to(instrument.name, instrument) %><br>
+  <%= image_tag(instrument.pic) %><br>
+<%= link_to 'delete', @instrument, :method => :delete, :confirm => 'Okay to delete?' %>
+  <br>
+<% end %>
+<br>

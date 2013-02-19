@@ -1,0 +1,12 @@
+<%= @sampler.name %>
+<br>
+<%= image_tag(@sampler.pic) %>
+<br>
+<% @sampler.kits.each do |kit| %>
+<br>
+  <%= link_to(kit.name, kit) %><br>
+  <%= image_tag(kit.pic) %><br>
+<%= link_to 'delete', @kit, :method => :delete, :confirm => 'Okay to delete?' %>
+  <br>
+<% end %>
+<br>
